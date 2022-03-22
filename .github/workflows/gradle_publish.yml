@@ -2,8 +2,15 @@
 name: Gradle_Publish
 
 on:
-  push:
-    tags:
+  workflow_call:
+    secrets:
+      ARTIFACTORY_USER:
+        required: true
+      ARTIFACTORY_PASSWORD:
+        required: true
+      ARTIFACTORY_URL:
+        required: true
+
 
 jobs:
   build:
