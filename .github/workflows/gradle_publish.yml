@@ -17,7 +17,7 @@ jobs:
     strategy:
       matrix:
         java: [1.8]
-        os: [ubuntu]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     env:
       gradle_version: 6.8.3 # set to empty to build with most recent version of gradle
