@@ -1,6 +1,6 @@
 {
     "name": "Build using Gradle",
-    "description": "Build using Gradle, by default version 5.2.1 is used.",
+    "description": "Build using Gradle, by default version 6.8.3 is used.",
     "iconName": "gradle",
     "categories": [
         "Gradle"
