@@ -1,5 +1,5 @@
 ---
-name: Gradle
+name: Gradle_Build
 
 on:
   push:
